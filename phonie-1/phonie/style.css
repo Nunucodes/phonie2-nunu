@@ -581,6 +581,42 @@ form .form-row .textarea {
 #question1 h3 {
   padding: 6vh;
 }
+
+/* footer styling */
+.footer{
+  margin-top: 5rem;
+  background: linear-gradient(256.24deg, #3D73FF -30.68%, rgba(121, 174, 255, 0.8) 23.64%, rgba(145, 142, 255, 0.55) 63.28%, rgba(87, 122, 255, 0.25) 97.37%);
+}
+
+.footer-links{
+  font-size: larger;
+  margin: 2rem;
+}
+
+.footer-logo{
+  font-size: larger;
+  font-weight: bold;
+}
+
+hr{
+  border: black solid 0.5px;
+}
+
+.upper-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 10rem;
+}
+
+.attribution{
+	text-align: center;
+  font-weight: 300;
+  font-family: Roboto;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* footer style ends */
+
 @media (max-width: 767px) {
   .main-container {
     flex-wrap: wrap;
@@ -647,4 +683,11 @@ form .form-row .textarea {
     padding: 3vh;
     font-size: 1rem;
   }
+
+  /* footer styles */
+  .footer-links{
+    font-size: medium;
+    margin: 1rem;
+  }
+/* footer styles end */
 }
