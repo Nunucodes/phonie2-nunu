@@ -421,7 +421,10 @@ em {
 }
 .member_text h3 {
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 3vh;
+}
+.member_text p {
+  font-size: 2vh;
 }
 .hidden {
   display: none;
@@ -538,8 +541,13 @@ form .form-row .textarea {
   border-radius: 5px;
 }
 .submit-btn:hover,
-.projects:hover {
+.projects:hover,
+.questions:hover,
+#question1:hover {
   background-color: rgb(48, 55, 73);
+}
+.questions:hover {
+  background-color: rgba(145, 142, 255, 0.55);
 }
 .submit-img {
   padding-left: 5px;
@@ -552,7 +560,7 @@ form .form-row .textarea {
 #question1 {
   width: 60vw;
   margin-top: 8vh;
-  height: 15vh;
+  height: 60px;
 
   margin: auto;
   margin-top: 5vh;
@@ -564,24 +572,26 @@ form .form-row .textarea {
     rgba(87, 122, 255, 0.25) 97.37%
   );
   box-shadow: 2px 2px 5px rgba(48, 55, 73, 0.6);
+  cursor: pointer;
 }
 .questions {
   width: 60vw;
   margin-top: 8vh;
-  height: 7vh;
+  height: 40px;
 
   margin: auto;
   margin-top: 5vh;
   box-shadow: 2px 2px 5px rgba(48, 55, 73, 0.6);
+  cursor: pointer;
 }
 .questions h4 {
   padding: 2vh;
   margin-left: 3vh;
 }
 #question1 h3 {
-  padding: 6vh;
+  padding: 4vh;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .main-container {
     flex-wrap: wrap;
     flex-direction: column;
@@ -631,7 +641,7 @@ form .form-row .textarea {
     display: grid;
     grid-template-columns: 60%;
     justify-content: center;
-    grid-template-rows: 50vh;
+    grid-template-rows: 40vh 40vh 40vh;
     gap: 3vh;
   }
   .team_members_section h2 {
@@ -639,12 +649,19 @@ form .form-row .textarea {
     margin-bottom: 3vh;
   }
   .questions h4 {
-    padding: 1vh;
+    padding: 3vh;
     margin-left: 3vh;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   #question1 h3 {
-    padding: 3vh;
-    font-size: 1rem;
+    padding: 4vh;
+    font-size: 0.8rem;
+  }
+  .questions,
+  #question1 {
+    width: 80vw;
+  }
+  .pic_box {
+    width: 50%;
   }
 }
