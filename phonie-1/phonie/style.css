@@ -291,51 +291,6 @@ em {
   text-align: center;
 }
 
-/* .team{
-  text-align: center;
-  font-size: 5vh;
-  margin: 10vh 0vh;
-  
-}
-.container-team1, .container-team2{
-  display: flex;
-  justify-content: center;
-  gap: 2vw;
-}
-.container-team2{
-  margin: 30px 0px;
-}
-.team1 , .team2{
-  box-shadow: 2px 2px  5px rgba(0, 0, 0, 0.5);
-  height: 450px;
-  width: 300px;
-
-}
-.middle{
-  background: linear-gradient(256.24deg, #3D73FF -30.68%, rgba(121, 174, 255, 0.8) 23.64%, rgba(145, 142, 255, 0.55) 63.28%, rgba(87, 122, 255, 0.25) 97.37%);
-}
-.img_box {
-  height: 50%;
-  width: 80%;
-  margin: auto;
-  margin: 3vh auto;
-}
-
-.img_box img {
-  width: 100%;
-}
-.team1-name, .team1-description, .team2-name, .team2-description{
-  text-align: center;
-  font-size: 18px;
-}
-
-.team1-name, .team2-name{
-  padding: 10px 0px;
-}
-.social-icon{
-  text-align: center;
-  padding: 20px 0;
-} */
 
 .container h1 {
   font-family: "Playfair Display";
@@ -344,24 +299,6 @@ em {
   text-align: center;
 }
 
-/* member section
-.member {
-  display: flex;
-  gap: 3em;
-}
-
-.member .mentor {
-  height: 200px;
-  background: #000;
-}
-
-.member .mentor h2 {
-  text-align: center;
-}
-
-.show {
-  display: block !important;
-} */
 
 /* Second Member section */
 .team_members_section {
