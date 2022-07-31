@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   background-color: #d7ebff;
   line-height: 1.5;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .Layout__contraints {
@@ -657,7 +658,7 @@ hr {
     font-size: 0.8rem;
   }
   .faq_answers h5 {
-    font-size: 0.5rem;
+    font-size: 10px;
   }
   #question1 .faq_answers,
   .questions .faq_answers {
