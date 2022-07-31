@@ -372,11 +372,16 @@ em {
 
 .member_text h3 {
   font-weight: 900;
-  font-size: 3vh;
+  font-size: 1rem;
 }
 
 .member_text p {
-  font-size: 2vh;
+  font-size: 0.8rem;
+}
+.social-icon {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
 }
 
 .hidden {
@@ -542,6 +547,7 @@ form .form-row .textarea {
   );
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .questions {
@@ -551,6 +557,7 @@ form .form-row .textarea {
   padding: 0 2em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .questions h4 {
@@ -677,7 +684,6 @@ hr {
     text-align: left;
     margin-bottom: 3vh;
   }
-
   .questions h4 {
     padding: 3vh;
     font-size: 13px;
@@ -688,10 +694,10 @@ hr {
     padding: 4vh;
     font-size: 0.8rem;
   }
-
   .questions,
   #question1 {
     width: 80vw;
+    position: relative;
   }
 
   .pic_box {
