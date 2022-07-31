@@ -10,8 +10,7 @@ body {
   font-size: 14px;
   background-color: #d7ebff;
   line-height: 1.5;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .Layout__contraints {
@@ -61,7 +60,6 @@ a {
     rgba(87, 122, 255, 0.25) 97.37%
   );
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 6vh;
 }
@@ -94,7 +92,6 @@ a {
     rgba(82, 115, 245, 1) 97.37%
   );
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -131,7 +128,7 @@ a {
 
 .main .text {
   width: 100%;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .main .text h2 {
@@ -157,7 +154,6 @@ em {
     rgba(87, 122, 255, 0.25) 97.37%
   );
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -181,13 +177,12 @@ em {
   width: 30vh;
   font-weight: bold;
   transition: all 0.3s ease 0s;
-  color: #ffffff;
-  border-radius: 4px;
+  color: #000;
+  border-radius: 1vh;
   cursor: pointer;
   border: none;
   font-size: 2.4vh;
 }
-
 .btn:hover,
 .nav_link li a:hover,
 .projects:hover {
@@ -238,7 +233,6 @@ em {
   align-items: center;
   gap: 0.3em;
 }
-
 .dash {
   background: linear-gradient(
     256.24deg,
@@ -264,9 +258,9 @@ em {
 .floated__box {
   width: 100px;
   height: 80px;
-  background-color: rgba(87, 121, 255, 0.688);
+  background-color: rgba(87, 122, 255, 0.25);
   padding: 1em;
-  margin-top: -70px;
+  margin-top: -50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,14 +303,13 @@ em {
 .team_members_section {
   margin: auto;
   width: 60vw;
+
   position: relative;
 }
-
 .team_members_section h2 {
   text-align: center;
   margin-bottom: 3vh;
 }
-
 .bx-collapse-vertical {
   font-size: 2rem;
   position: absolute;
@@ -324,36 +317,32 @@ em {
   right: 0;
   color: rgb(48, 55, 73);
 }
-
 .team_members_section #fhidden {
   position: absolute;
-  top: -2em;
-  right: 0;
+  top: 0;
+  right: 3vw;
 }
-
 .row1 {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 25% 25% 25%;
   justify-content: space-around;
-  grid-template-rows: 1fr;
-  gap: 2em;
+  grid-template-rows: 50vh;
+  gap: 3vh;
 }
-
 .team1 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: 2px 2px 5px rgba(48, 55, 73, 0.6);
+  position: relative;
 }
-
 .pic_box {
   /* border: 1px solid black; */
   width: 90%;
+  height: 50%;
   margin: auto;
   margin-top: 3vh;
 }
-
 .img_anonymous {
   width: 100%;
 }
-
 .middle {
   background: linear-gradient(
     256.24deg,
@@ -363,18 +352,14 @@ em {
     rgba(87, 122, 255, 0.25) 97.37%
   );
 }
-
 .member_text {
   text-align: center;
-  margin-top: 2em;
-  padding: 1em;
+  margin-top: 2vh;
 }
-
 .member_text h3 {
   font-weight: 900;
   font-size: 1rem;
 }
-
 .member_text p {
   font-size: 0.8rem;
 }
@@ -383,7 +368,6 @@ em {
   bottom: 0;
   left: 40%;
 }
-
 .hidden {
   display: none;
 }
@@ -395,29 +379,25 @@ em {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 20px 0;
+  padding: 40px;
   background-color: #d7ebff;
 }
 
 form {
   padding-top: 20px;
 }
-
 .container form .form-row {
   margin: 32px 0;
 }
-
 form .form-row .input-data {
   width: 100%;
   height: 40px;
   margin: 0 20px;
   position: relative;
 }
-
 form .form-row .textarea {
   height: 50px;
 }
-
 .input-data input,
 .textarea textarea {
   display: block;
@@ -429,11 +409,9 @@ form .form-row .textarea {
   background-color: #d7ebff !important;
   outline: none;
 }
-
 .textarea textarea {
   resize: none;
 }
-
 .input-data input:focus ~ label,
 .textarea textarea:focus ~ label,
 .input-data input:valid ~ label,
@@ -447,7 +425,6 @@ form .form-row .textarea {
     rgba(82, 115, 245, 1) 97.37%
   );
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 14px;
 }
@@ -459,19 +436,16 @@ form .form-row .textarea {
   pointer-events: none;
   transition: all 0.3s ease;
 }
-
 .textarea label {
   /* width: 100%; */
   bottom: 40px;
 }
-
 .input-data .underline {
   position: absolute;
   bottom: 0;
   height: 2px;
   width: 100%;
 }
-
 .input-data .underline:before,
 .input-data .underline:after {
   position: absolute;
@@ -483,7 +457,6 @@ form .form-row .textarea {
   transform-origin: center;
   transform: transform 0.3s ease;
 }
-
 .input-data input:focus ~ .underline:before,
 .underline:after,
 .textarea textarea:focus ~ .underline:before,
@@ -494,8 +467,8 @@ form .form-row .textarea {
 .underline:after {
   transform: scale(1);
 }
-
 .submit-btn {
+  height: 35px;
   width: 100%;
   font-size: 15px;
   font-weight: bold;
@@ -507,37 +480,32 @@ form .form-row .textarea {
     rgba(87, 122, 255, 0.25) 97.37%
   );
   border: none;
-  padding: 12px 24px;
   border-radius: 5px;
 }
-
 .submit-btn:hover,
 .projects:hover,
 .questions:hover,
 #question1:hover {
   background-color: rgb(48, 55, 73);
 }
-
 .questions:hover {
   background-color: rgba(145, 142, 255, 0.55);
 }
-
 .submit-img {
   padding-left: 5px;
   position: absolute;
 }
-
 .fasked {
   /* margin-top: 5vh; */
   text-align: center;
 }
-
 #question1 {
   width: 60vw;
-  margin-top: 2em;
-  padding: 0 2em;
-  margin: auto;
+  margin-top: 8vh;
+  height: 6rem;
 
+  margin: auto;
+  margin-top: 5vh;
   background: linear-gradient(
     256.24deg,
     #3d73ff -30.68%,
@@ -545,28 +513,35 @@ form .form-row .textarea {
     rgba(145, 142, 255, 0.55) 63.28%,
     rgba(87, 122, 255, 0.25) 97.37%
   );
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: 2px 2px 5px rgba(48, 55, 73, 0.6);
   cursor: pointer;
   border-radius: 10px;
 }
-
 .questions {
   width: 60vw;
-  border-radius: 3px;
-  margin: 1em auto;
-  padding: 0 2em;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 8vh;
+  height: 5rem;
+
+  margin: auto;
+  margin-top: 7vh;
+  box-shadow: 2px 2px 5px rgba(48, 55, 73, 0.6);
   cursor: pointer;
   border-radius: 10px;
 }
-
 .questions h4 {
-  padding: 1em 0;
+  padding: 1rem;
+  margin-left: 3vh;
 }
-
 #question1 h3 {
-  padding: 2em 0;
-  margin: 1em 0;
+  padding: 1.5rem;
+  margin-left: 3vh;
+}
+.faq_answers {
+  background-color: antiquewhite;
+  padding: 0.5rem;
+}
+.faq_answers h5 {
+  margin-left: 3vh;
 }
 
 /* footer styling */
@@ -595,11 +570,6 @@ hr {
   border: black solid 0.5px;
 }
 
-.network__image {
-  width: 50px;
-  height: 50px;
-}
-
 .upper-footer {
   display: flex;
   justify-content: space-between;
@@ -613,7 +583,6 @@ hr {
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
-
 /* footer style ends */
 
 @media (max-width: 769px) {
@@ -622,11 +591,9 @@ hr {
     flex-direction: column;
     gap: 2em;
   }
-
   .main img {
     width: 400px;
   }
-
   .alt_logo h1 {
     font-size: 25px;
   }
@@ -642,64 +609,68 @@ hr {
   .right {
     display: none;
   }
-
   .feature-flex-box {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2em;
   }
-
   .flex-box-container {
     margin: 10px 0;
   }
-
   .container .text {
     font-size: 30px;
   }
-
   .container form {
     padding: 10px 0 0 0;
   }
-
   .container form .form-row {
     display: block;
   }
-
   form .form-row .input-data {
     margin: 35px 0 !important;
   }
-
   .submit-btn .input-data {
     width: 40% !important;
   }
-
   .row1 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 60%;
     justify-content: center;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 2em;
+    grid-template-rows: 40vh 40vh 40vh;
+    gap: 3vh;
   }
-
   .team_members_section h2 {
     text-align: left;
     margin-bottom: 3vh;
   }
+  .social-icon {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    font-size: 0.5rem;
+  }
   .questions h4 {
     padding: 3vh;
-    font-size: 13px;
+    margin-left: 3vh;
     font-size: 0.6rem;
   }
-
   #question1 h3 {
     padding: 4vh;
     font-size: 0.8rem;
+  }
+  .faq_answers h5 {
+    font-size: 10px;
+  }
+  #question1 .faq_answers,
+  .questions .faq_answers {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
   .questions,
   #question1 {
     width: 80vw;
     position: relative;
   }
-
   .pic_box {
     width: 50%;
   }
@@ -709,4 +680,5 @@ hr {
     font-size: medium;
     margin: 1rem;
   }
+  /* footer styles end */
 }
