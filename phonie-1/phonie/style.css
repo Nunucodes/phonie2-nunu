@@ -530,7 +530,7 @@ form .form-row .textarea {
 #question1 {
   width: 60vw;
   margin-top: 2em;
-
+  padding: 0 2em;
   margin: auto;
 
   background: linear-gradient(
@@ -548,7 +548,7 @@ form .form-row .textarea {
   width: 60vw;
   border-radius: 3px;
   margin: 1em auto;
-
+  padding: 0 2em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
